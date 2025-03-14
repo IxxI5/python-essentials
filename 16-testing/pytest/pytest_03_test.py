@@ -80,3 +80,14 @@ def test_google_search(browser):
     # Verify that at least one search result with text "pytest UI testing" is present
     assert "pytest UI testing" in browser.page_source
     
+# Key unittest Assertions:
+
+# assertEqual(a, b): Checks if a and b are equal.
+# assertNotEqual(a, b): Checks if a and b are not equal.
+# assertTrue(x): Checks if x is true.
+# assertFalse(x): Checks if x is false.
+# assertIs(a, b): Checks if a and b are the same object.
+# assertIsNot(a, b): Checks if a and b are not the same object.
+# assertIsNone(x): Checks if x is None.
+# assertIsNotNone(x): Checks if x is not None.
+# assertRaises(exception, callable, *args, **kwargs): Checks if a specific exception is raised.

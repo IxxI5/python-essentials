@@ -64,3 +64,14 @@ def test_get_post_multiple_cases(jsonplaceholder_service, post_id):
     assert isinstance(result, dict)                                 # Check if the result is a dictionary
     assert result["id"] == post_id                                  # Check if the "id" key has the expected value
 
+# Key unittest Assertions:
+
+# assertEqual(a, b): Checks if a and b are equal.
+# assertNotEqual(a, b): Checks if a and b are not equal.
+# assertTrue(x): Checks if x is true.
+# assertFalse(x): Checks if x is false.
+# assertIs(a, b): Checks if a and b are the same object.
+# assertIsNot(a, b): Checks if a and b are not the same object.
+# assertIsNone(x): Checks if x is None.
+# assertIsNotNone(x): Checks if x is not None.
+# assertRaises(exception, callable, *args, **kwargs): Checks if a specific exception is raised.

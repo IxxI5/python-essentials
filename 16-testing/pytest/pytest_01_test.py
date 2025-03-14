@@ -107,3 +107,15 @@ def test_mocking_example(mock_requests_get, weather_service):
     # Assert: Ensure the function was called once with expected arguments
     mock_requests_get.assert_called_once_with("https://api.example.com/weather?city=Dubai") 
     assert result == {"temperature": 30, "condition": "Hot"}                         # Check if the result matches the expected response
+
+# Key unittest Assertions:
+
+# assertEqual(a, b): Checks if a and b are equal.
+# assertNotEqual(a, b): Checks if a and b are not equal.
+# assertTrue(x): Checks if x is true.
+# assertFalse(x): Checks if x is false.
+# assertIs(a, b): Checks if a and b are the same object.
+# assertIsNot(a, b): Checks if a and b are not the same object.
+# assertIsNone(x): Checks if x is None.
+# assertIsNotNone(x): Checks if x is not None.
+# assertRaises(exception, callable, *args, **kwargs): Checks if a specific exception is raised.
