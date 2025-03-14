@@ -84,17 +84,6 @@ class TestBankAccount(unittest.TestCase):
         with self.assertRaises(ValueError):
             self.account.withdraw(200)  # Trying to withdraw 200 should raise ValueError
 
-
-# Arrange, Act, Assert
-
-# Advanced Example 2: Testing a function that uses a mock object
-# import unittest.mock
-
-# def get_user_data(user_id):
-#     # Simulate a database query
-#     return {"name": "John Doe", "email": "johndoe@example.com"}
-
-
 # Key unittest Assertions:
 
 # assertEqual(a, b): Checks if a and b are equal.
